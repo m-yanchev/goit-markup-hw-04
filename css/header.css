@@ -1,3 +1,7 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header .logo {
   color: #2e2f42;
 }
@@ -7,7 +11,25 @@
   font-weight: 500;
 }
 
+.link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 23px;
+}
+
 .link:hover,
 .link:focus {
   color: #404bbf;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu,
+.contacts {
+  display: flex;
+  gap: 40px;
 }

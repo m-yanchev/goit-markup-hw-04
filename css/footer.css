@@ -1,10 +1,16 @@
 .footer {
   color: #f4f4fd;
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.left {
+  max-width: 264px;
 }
 
 .footer .logo {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-text {

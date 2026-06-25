@@ -1,4 +1,25 @@
-.portfolio .card-title,
+.portfolio .section-title {
+  margin-bottom: 72px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.project-card {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio .card-content {
+  border-style: solid;
+  border-color: #e7e9fc;
+  border-width: 0 1px 1px 1px;
+}
+
+.portfolio .card-title,
+.portfolio .card-paragraph {
   text-align: left;
 }

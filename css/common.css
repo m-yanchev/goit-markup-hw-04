@@ -18,6 +18,33 @@ address {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -27,15 +54,24 @@ ul {
   text-align: center;
 }
 
+.card-content {
+  padding: 32px 16px;
+}
+
 .card-title {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.card-content {
+.card-paragraph {
   line-height: 1.5;
+}
+
+.card-image {
+  object-fit: contain;
 }
 
 button {
@@ -48,6 +84,7 @@ button:focus {
 }
 
 .logo {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.33;
@@ -58,4 +95,17 @@ button:focus {
 
 .logo span {
   color: #4d5ae5;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }

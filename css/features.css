@@ -1,4 +1,13 @@
+.features .section-title {
+  margin-bottom: 20px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
 .features .card-title,
-.features .card-content {
+.features .card-paragraph {
   text-align: left;
 }
