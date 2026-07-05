@@ -22,7 +22,7 @@
 }
 
 .project-card:hover .portfolio-media-text {
-  top: 0;
+  transform: translateY(0);
 }
 
 .portfolio .card-content {
@@ -45,9 +45,9 @@
   position: absolute;
   padding: 40px 32px;
   height: 100%;
-  top: 100%;
+  transform: translateY(100%);
   color: #f4f4fd;
   background-color: #4d5ae5;
   line-height: 24px;
-  transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
