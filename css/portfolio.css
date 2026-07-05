@@ -43,6 +43,8 @@
 
 .portfolio-media-text {
   position: absolute;
+  top: 0;
+  left: 0;
   padding: 40px 32px;
   height: 100%;
   transform: translateY(100%);
